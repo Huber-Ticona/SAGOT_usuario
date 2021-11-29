@@ -295,7 +295,7 @@
        <rect>
         <x>180</x>
         <y>20</y>
-        <width>161</width>
+        <width>131</width>
         <height>17</height>
        </rect>
       </property>
@@ -543,7 +543,7 @@
       <rect>
        <x>20</x>
        <y>230</y>
-       <width>421</width>
+       <width>491</width>
        <height>41</height>
       </rect>
      </property>
@@ -568,12 +568,25 @@
        <rect>
         <x>180</x>
         <y>20</y>
-        <width>161</width>
+        <width>121</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
        <string>PERSONAL DE ÁREA</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="r_porteria_2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>20</y>
+        <width>161</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PERSONAL DE PORTERÍA</string>
       </property>
      </widget>
     </widget>

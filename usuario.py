@@ -240,6 +240,13 @@ class Gestionar(QMainWindow):
                 if datos[6] == 'area':
                     self.r_personal_2.setChecked(True)
                     self.r_vendedor_2.setChecked(False)
+                    self.r_porteria_2.setChecked(False)
+                #version 5.4 
+                elif datos[6] == 'porteria':
+                    self.r_porteria_2.setChecked(True)
+                    self.r_personal_2.setChecked(False)
+                    self.r_vendedor_2.setChecked(False)
+
                 detalle = json.loads(datos[7])
 
                 f_area = detalle["area"]
@@ -303,6 +310,10 @@ class Gestionar(QMainWindow):
             tipo = 'area'
         if self.r_vendedor_2.isChecked():
             tipo = 'vendedor'
+        #v5.4
+        if self.r_porteria_2.isChecked():
+            tipo = 'porteria'
+
         formato = {
                     "area" : func_area,
                     "vendedor" : func_vendedor
