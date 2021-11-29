@@ -1,0 +1,7 @@
+
+[Version 5.3 (1-09-2021)]
+- se anadio un campo nombre commpleto a los usuarios.
+
+
+[Version 5.2 (1-09-2021)]
+- Se añadio boton para respaldar los datos en la carpeta "respaldo_datos" del servidor
